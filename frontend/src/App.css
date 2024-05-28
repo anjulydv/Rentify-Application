@@ -1,0 +1,498 @@
+.App {
+  text-align: center;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Lato', sans-serif;
+
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#navbar{
+  background: brown;
+  font-family: 'Roboto', sans-serif;
+
+}
+ #logo{
+  font-size: 36px;
+  font-weight:550 ; 
+  color:black;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+  /* background-image: url('../public/logo.avif'); */
+   
+ } 
+#img{
+  width:10;
+
+height:10;
+}
+#navbar{
+  font-size:100px ;
+
+}
+.navbar-toggler{
+  color: yellowgreen;
+}
+.nav-item .active {
+  background: #ffa500;
+  color: white !important;
+}
+.nav-item{
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  background: #ffa500;
+  color: white;
+}
+#navbar form button{
+  background: orange;
+  color:white;
+  border:none;
+
+}
+/* home section */
+.Home{
+  background-size: cover;
+  min-height:90vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../public/images/beach-1236581.jpg);
+ 
+}
+.Home .content{
+  text-align: centre;
+   padding-top: 200px; 
+    margin: auto;
+   /* width: 500px;
+   padding-bottom: 100px; */ 
+
+   
+
+}
+.Home .content h3{
+  color:white;
+  font-size: 38px;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px black ;
+  text-align: center;
+  
+
+}
+.Home .content h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 550;
+  text-align: center;
+  text-shadow:0px 1px 1px black ;
+  margin-top: 5px;
+
+}
+.changecontent::after{
+  content: '';
+  color: #ffa500;
+  text-shadow: 0px 0px 1px black;
+  animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+  0%{content:"France";}
+  10%{content:"Greece";}
+  20%{content:"Italy";}
+  30%{content:"United State";}
+  40%{content:"Spain";}
+  50%{content:"China";}
+  60%{content:"India";}
+  70%{content:"Switzerland";}
+  80%{content:"Turkey";}
+  90%{content:"Mexico";}
+}
+.Home .content p{
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom:30px ;
+  margin-top: 5px;
+  text-align:center;
+
+}
+.Home .content a{
+  padding:10px;
+  background:white;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 550;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.Home .content a:hover{
+  background: #ffa500;
+  color: white;
+
+}
+.BrowseLocation .p{
+  background: #ffa500;
+  color: white;
+
+}
+.BrowseLocation .delete-btn{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -40px;
+  background-color: red;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media(max-width:850px){
+  .Home{
+    background-position: 50%;
+  }
+}
+  /* .Home .content h1{
+    font-size: 25px;
+  }
+
+
+  .Home .content h3{
+    font-size: 38px;
+  }
+  .Home .content p{
+    font-size: 13px;
+  } */
+/* Section book */
+/* .book{
+  background:#f9f9f9 ;
+  padding: 50px;
+}
+.main-text{
+text-align: center;
+text-shadow: 0px 1px 1px black;
+font-weight:600;
+
+
+}
+.main-text h1 span{
+  color: #ffa500;
+
+}
+.book .card{
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px black;
+
+}
+.book .row{
+  margin-top:30px;
+}
+.book form input{
+  padding: 10px;
+  color:black;
+  outline:none;
+  font-size:15px;
+  border-radius: 10px;
+  box-shadow:0px 5px 5px -6px black;
+
+} */
+
+.footer{
+  margin-top: 15px;
+}
+
+.foot-panel1{
+  background-color: rgb(95, 28, 4); ;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-panel2{
+  background-color:brown;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+ul{
+  margin-top: 20px;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: whitesmoke;
+
+}
+.foot-panel3{
+  background-color:rgba(165, 42, 42, 0.978);
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo{
+  background-image: url("../public/images/logo.png");
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  
+  
+
+}
+.foot-panel4{
+  background-color: rgb(95, 28, 4) ;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.pages{
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 25px;
+  display: flex;
+
+}
+.copyright{
+  
+
+  font-size: 0.7rem;
+  background-color: rgb(95, 28, 4);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.foot-panel1{
+  background-color:black;
+  color:white;
+  height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+  
+
+}
+@media(max-width:850px){
+  .card-img{
+    background-position: 50%;
+  }
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+
+}
+.coreValueList li{
+  height:auto;
+   
+}
+.coreValueList.coreValueList li {
+  width: 400px;
+  height: 400px;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32px 32px 0;
+  cursor: pointer;
+  transition: 1s ease all;
+}
+/* .heading1 h2{
+
+    font-size: 4.0rem;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 10px;
+} */
+
+.coreValueList .descText {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  text-align: center;
+  color: #2F2F2F;
+}
+.descText {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 30px
+}
+@media screen and (max-width: 768px){
+.copyRight{
+  padding:10px 0;
+}
+}
+.copyRight {
+  background: #000;
+  padding: 50px 0;
+  font-size: 1.6rem;
+  line-height: 2.0rem;
+}
+div{
+  display: block;
+}
+@media screen and (max-width: 768px){
+.copyRight .container {
+    flex-direction: column;
+    align-items: center;
+}
+}
+.copyRight .container{
+  display: flex;
+}
+@media screen and (max-width: 768px){
+.container {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+}
+.conatiner{
+  margin:0 auto;
+}
+.socialMedia{
+  display:flex;
+  align-items: center;
+  margin:0;
+  padding:0
+  
+}
+.socialMedia a{
+  margin:10px;
+}
+.facebookIcon{
+  width:14px;
+  height:29px;
+  background-position: -169px -8px;
+}
+
+.sprite{
+  background: url() no-repeat;
+  background-size: 200px 200px;
+  display: block;
+  font-size: 0;
+}
+a{
+  text-decoration: none;
+  color:#008cff;
+}
+.twitterIcon{
+  width:27px;
+  height:23px;
+  background-position: -129px -11px;
+}
+@media screen and (max-width: 768px){
+.cRights {
+    width: 100%;
+    margin-left: unset;
+    font-size: 1.4rem;
+}
+}
+@media screen and (max-width: 768px){
+.cRights p {
+    text-align: center;
+}
+}
+.appendBottom4{
+  margin-bottom: 4px;
+}
+.whiteText{
+  color: #FFFFFF;
+}
+.latoBold{
+  font-weight: 700;
+}
+@media screen and (max-width:768px) {
+  .hero-section{
+    background-size: inherit;
+    height:550px;
+  }
+  
+}
+/* .heroSection {
+  background-image: url(./public/topimg.avif) no-repeat center center;
+   background-size: 100%; 
+   height: 461px; 
+} */
+.heroSection {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 45px 0;
+  background: url(https://d3nn873nee648n.cloudfront.net/900x600/16619/220-SM724516.jpg) no-repeat center center;
+  background-size: cover;
+}
+.hero-section{
+  width: 100%;
+  position:relative;
+  top:0px;
+}
+
+
+.my-img{
+  height: 250px;
+  object-fit: cover;
+}
+
+
+

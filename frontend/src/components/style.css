@@ -1,0 +1,215 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+form {
+  /* background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0; */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically 
+     display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .swiper-slide img {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+  } */
+
+  .slide{
+    height: 70vh;
+  width: 100%;
+  }
+  .slide1 {
+    background-image: url('../../public/tour-images/tour-img01.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .slide2 {
+    background-image: url('../../public/tour-images/tour-img02.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .slide3 {
+    background-image: url('../../public/tour-images/tour-img03.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .slide4{
+    background-image: url('../../public/tour-images/tour-img04.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .slide5 {
+    background-image: url('../../public/tour-images/tour-img05.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .slide6 {
+    background-image: url('../../public/tour-images/tour-img06.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+   
+
+ 
+
+ 
+
+
+
+
+
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons a {
+  display: inline-block;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.slide7{
+  background-image: url(../../public/tour-images/Greece1.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide8{
+  background-image: url(../../public/tour-images/Greece2.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide9{
+  background-image: url(../../public/tour-images/Greece3.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide10{
+  background-image: url(../../public/tour-images/Greece4.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+
+.slide11{
+  background-image: url(../../public/tour-images/instabul1.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide12{
+  background-image: url(../../public/tour-images/turkey2.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide13{
+  background-image: url(../../public/tour-images/tukey3.jpg);
+  background-size:cover;
+  background-position: center;
+
+
+}
+.slide14{
+  background-image: url(../../public/tour-images/tukey4.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide15{
+  background-image: url(../../public/tour-images/Spain1.jpeg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide16{
+  background-image: url(../../public/tour-images/spain2.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide17{
+  background-image: url(../../public/tour-images/us1.jpg);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide18{
+  background-image: url(../../public/tour-images/us2.avif);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide19{
+  background-image: url(../../public/tour-images/india1.avif);
+  background-size:cover;
+  background-position: center;
+
+}
+.slide20{
+  background-image: url(../../public/tour-images/india2.avif);
+  background-size:cover;
+  background-position: center;
+
+}
