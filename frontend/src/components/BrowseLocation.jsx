@@ -86,6 +86,7 @@ const Addplaces=()=>{
   const handleLike =(place) =>{
     setLikes((prevLikes) => ({ ...prevLikes, [place]: prevLikes[place] + 1 }));
   };
+  
   return (
     <>
 
@@ -160,6 +161,9 @@ const Addplaces=()=>{
     <header/>
         <div><h3 className='fw-bold'>Featured apartment destinations</h3>
         <h5>Check out these popular destinations for apartments</h5></div>
+        
+       
+          
       <div className='carousel-inner'>
         <div className='carousel-item active'>
           < div className="container mt-5 ">

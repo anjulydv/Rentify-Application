@@ -14,6 +14,7 @@ const LoginSchema = Yup.object().shape({
 
 const Login = () => {
   const {setLoggedIn } = useUserContext();
+  
 
   const navigate = useNavigate( );
 
@@ -37,7 +38,7 @@ const Login = () => {
 
       console.log(res.status);
 
-      if(res.status == 200){
+      if(res.status == 401){
         Swal.fire({
           icon : 'success',
           title : 'WellDone!',
@@ -47,6 +48,7 @@ const Login = () => {
         sessionStorage.setItem('user', JSON.stringify(data));
         setLoggedIn(true);
         resetForm( );
+        navigate('/BrowseLocation');
 
       }
       else if(res.status === 401){
@@ -126,7 +128,7 @@ const Login = () => {
                         className="btn btn-dark btn-lg btn-block"
                         type="submit"
                         disabled={loginForm.isSubmitting}
-                      >
+                    > 
                         Login
                       </button>
                     </div>

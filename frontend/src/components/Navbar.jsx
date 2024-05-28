@@ -19,8 +19,23 @@ const Navbar = () => {
             <button className="btn btn-danger" onClick={logout} >Logout</button>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/profile">
-              Profile
+            <NavLink className="nav-link" to="/BrowseLocation">
+              BrowseLocation
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/Addplaces">
+              Add Places
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/Contactus">
+              Contact Us
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/Aboutus">
+              About us
             </NavLink>
           </li>
         </>
@@ -40,17 +55,17 @@ const Navbar = () => {
               Login
             </NavLink>
           </li>
-          
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/BrowseLocation">
+              BrowseLocation
+            </NavLink>
+          </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/Addplaces">
               Add Places
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/Browselocation">
-              Browse Location
-            </NavLink>
-          </li>
+         
           <li className="nav-item">
             <NavLink className="nav-link" to="/Contactus">
               Contact Us
