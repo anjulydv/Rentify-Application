@@ -1,8 +1,8 @@
 const express = require("express");
 
-const userRouter = require('./Backend/routers/userRouter');
-const placeRouter = require('./Backend/routers/placeRouter');
-const utilRouter = require('./Backend/routers/util');
+const userRouter = require('./routers/placeRouter');
+const placeRouter = require('./routers/placeRouter');
+const utilRouter = require('./routers/util');
 
 
 const cors = require('cors')
